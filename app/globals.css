@@ -12,6 +12,34 @@
   --font-mono: var(--font-geist-mono);
 }
 
+  @keyframes fadeInUp {
+            0% {
+              opacity: 0;
+              transform: translateY(40px);
+            }
+
+            100% {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
+
+  .fade-in-up {
+    animation: fadeInUp 1s ease-out both;
+  }
+
+  .delay-1 {
+    animation-delay: 0.3s;
+  }
+
+  .delay-2 {
+    animation-delay: 0.6s;
+  }
+
+  .delay-3 {
+    animation-delay: 0.9s;
+  }
+  
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
