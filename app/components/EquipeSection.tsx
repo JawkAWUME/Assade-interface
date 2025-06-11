@@ -86,6 +86,34 @@ export const EquipeSection = () => {
           <p className="text-[#00cc44] font-bold">Conseiller</p>
         </div>
       </div>
+
+       <div className="w-full max-w-xs border rounded-md overflow-hidden shadow-sm">
+        <div className="h-64 w-full overflow-hidden">
+          <img
+            src="Franklin_SOH_DEFFO.jpg"
+            alt="Dr Franklin SOH DEFFO"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="bg-green-100 text-center py-6 space-y-1">
+          <p className="font-semibold text-gray-800">Dr Franklin Soh DEFFO</p>
+          <p className="text-[#00cc44] font-bold">Conseiller</p>
+        </div>
+      </div>
+
+      <div className="w-full max-w-xs border rounded-md overflow-hidden shadow-sm">
+        <div className="h-64 w-full overflow-hidden">
+          <img
+            src="Marlyse_NGONO.jpg"
+            alt="Marlyse NGONO"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="bg-green-100 text-center py-6 space-y-1">
+          <p className="font-semibold text-gray-800">Marlyse NGONO</p>
+          <p className="text-[#00cc44] font-bold">Commissaire aux Comptes</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>

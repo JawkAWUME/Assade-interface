@@ -11,7 +11,7 @@ export const BannerSecondSection = () => {
       <nav className="flex justify-between items-center p-4 bg-green-700 bg-opacity-80">
         <div className="flex items-center gap-2">
           <a href="/" className="hover:text-yellow-300">
-            <img src="/Assade.png" alt="Logo Assade" className="w-24" />
+            <img src="/Logo_ASSADE.jpg" alt="Logo Assade" className="w-24" />
           </a>
         </div>
         <ul className="hidden md:flex gap-6 text-white font-semibold space-x-4">

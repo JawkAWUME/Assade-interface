@@ -46,6 +46,50 @@ export const PhotoGallery = () => {
             />
           </div>
         </div>
+         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+           <div className="border-4 border-green-500 rounded-xl overflow-hidden">
+            <img
+              src="ImageASSADE6.png"
+              alt="Activité 4"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="border-4 border-green-500 rounded-xl overflow-hidden">
+            <img
+              src="ImageASSADE7.png"
+              alt="Activité 4"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="border-4 border-green-500 rounded-xl overflow-hidden">
+            <img
+              src="ImageASSADE8.png"
+              alt="Activité 4"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="border-4 border-green-500 rounded-xl overflow-hidden">
+            <img
+              src="ImageASSADE9.png"
+              alt="Activité 4"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="border-4 border-green-500 rounded-xl overflow-hidden">
+            <img
+              src="ImageASSADE10.png"
+              alt="Activité 4"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="border-4 border-green-500 rounded-xl overflow-hidden">
+            <img
+              src="ImageASSADE11.png"
+              alt="Activité 4"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
       </div>
     </section>
   );

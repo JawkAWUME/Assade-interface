@@ -4,7 +4,7 @@ export const Footer = () => {
             <div className="max-w-6xl mx-auto py-10 px-6 grid grid-cols-1 md:grid-cols-4 gap-8
             items-start">
                 <div>
-                    <img src="Assade.png" alt="Logo Assade" className="w-24"/>
+                    <img src="/Logo_ASSADE.jpg" alt="Logo Assade" className="w-24"/>
                 </div>
                 <div>
                     <h3 className="font-bold text-lg mb-2">Siège social</h3>

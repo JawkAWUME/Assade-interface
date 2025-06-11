@@ -15,7 +15,7 @@ export const Header = () => {
       <nav className="flex justify-between items-center px-4 py-4 bg-green-700 bg-opacity-80">
         {/* Logo */}
         <div className="flex items-center">
-          <Image src="/Assade.png" alt="Logo Assade" width={96} height={64} />
+          <Image src="/Logo_ASSADE.jpg" alt="Logo Assade" width={96} height={64} />
         </div>
 
         {/* Desktop Menu */}
