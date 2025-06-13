@@ -1,19 +1,6 @@
 export const AproposSection = () => {
   return (
     <section id="apropos" className="relative px-6 py-12 bg-white  w-full mx-auto">
-      {/* Onglets de navigation */}
-      <div className="flex justify-center gap-3 mb-10 flex-wrap relative w-full">
-        <button className="bg-green-700 text-white px-5 py-2 rounded-full font-semibold shadow hover:bg-green-800 transition duration-300">
-          QUI SOMMES-NOUS
-        </button>
-        <button className="bg-green-300 text-green-900 px-5 py-2 rounded-full font-semibold shadow hover:bg-green-400 transition duration-300">
-          NOS VALEURS
-        </button>
-        <button className="bg-green-300 text-green-900 px-5 py-2 rounded-full font-semibold shadow hover:bg-green-400 transition duration-300">
-          NOTRE ÉQUIPE
-        </button>
-      </div>
-
       {/* Texte de présentation */}
       <div className="bg-gray-50 rounded-xl shadow-md p-8 space-y-6 text-gray-800 leading-relaxed text-justify border border-gray-200">
         <p>
