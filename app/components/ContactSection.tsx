@@ -11,7 +11,7 @@ const MapClient = dynamic(() => import("./MapClient"), {
 
 const ContactSection = () => {
   return (
-    <section className="bg-white py-16 px-4">
+    <section className="bg-white py-16 px-4 mt-20">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
         {/* Formulaire */}
         <div>

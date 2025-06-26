@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 
-
 const paymentMethods = [
   { id: 'mtn', label: 'MTN Mobile Money', image: "/mtn.png" },
   { id: 'orange', label: 'Orange Money', image: "/orange.png" },
@@ -23,14 +22,16 @@ const DonateSection = () => {
       return;
     }
 
-    // Traiter la soumission ici (API, redirection, etc.)
+    // Traitement de la soumission
     alert(`Montant: ${amount} FCFA\nTéléphone: ${phone}\nMoyen de paiement: ${selectedMethod}`);
   };
 
   return (
-    <section className="bg-white px-4 py-12">
+    <section className="bg-white px-4 py-12 mt-40">
       <div className="max-w-2xl mx-auto border rounded-lg shadow-md p-6">
-        <h2 className="text-2xl font-bold text-black text-center mb-6">Soutenez l’association ASSADE</h2>
+        <h2 className="text-2xl font-bold text-black text-center mb-6">
+          Soutenez l’association ASSADE
+        </h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
             type="number"

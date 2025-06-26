@@ -2,34 +2,33 @@ import React from "react";
 
 const activites = [
   {
-    image: "depistage.png",
+    image: "/depistage.png",
     titre: "Dépistage communautaire et vaccination communautaire",
   },
   {
-    image: "intrants.png",
+    image: "/intrants.png",
     titre: "Distribution des intrants pour lutter contre certaines maladies",
   },
   {
-    image: "mobilisation.png",
+    image: "/mobilisation.png",
     titre: "Mobilisation et sensibilisation communautaire",
   },
   {
-    image: "campagnes.png",
+    image: "/campagnes.png",
     titre: "Campagnes de santé",
   },
   {
-    image: "planning.png",
+    image: "/planning.png",
     titre: "Planning familial",
   },
   {
-    image: "pathologies.png",
+    image: "/pathologies.png",
     titre: "La prise en charge de certaines pathologies",
   },
 ];
-
 const ActivitesSection = () => {
   return (
-    <section className="bg-white py-16 px-4">
+    <section className="bg-white py-16 px-4 mt-20">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-semibold text-center text-gray-800 mb-12">
           Nos principales activités de terrain
@@ -38,7 +37,7 @@ const ActivitesSection = () => {
           {activites.map((item, index) => (
             <div
               key={index}
-              className="overflow-hidden border rounded-md shadow-sm bg-white"
+              className="overflow-hidden border rounded-xl shadow-md bg-white transition hover:shadow-lg"
             >
               <div className="h-56 w-full overflow-hidden">
                 <img

@@ -3,17 +3,17 @@ import React from "react";
 const projets = [
   {
     titre: "PROJET DEPISTAGE GRATUIT",
-    image: "depistage-vih.png",
+    image: "/depistage-vih.png",
   },
   {
     titre: "PROJET ORPHELINAT",
-    image: "orphelinat.png",
+    image: "/orphelinat.png",
   },
 ];
 
 const ProjetsSection = () => {
   return (
-    <section className="bg-gray-50 py-16 px-4">
+    <section className="bg-gray-50 py-16 px-4 mt-50">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
         {projets.map((projet, index) => (
           <div
